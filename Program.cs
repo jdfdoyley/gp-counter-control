@@ -55,5 +55,22 @@ public class CounterControlledLoops
         {
             Console.Write("{0} ", cnt);
         }
+
+        // Demo countdown using while loop
+        Console.WriteLine("\n\nwhile Loop Countdown");
+        int wcnt2 = 10;
+
+        while (wcnt2 >= 0)
+        {
+            Console.Write("{0} ", wcnt2);
+            wcnt2--;
+        }
+
+        // Demo countdown using for loop
+        Console.WriteLine("\n\nfor Loop Countdown");
+        for (int cnt = 10; cnt >= 0; cnt--)
+        {
+            Console.Write("{0} ", cnt);
+        }
     }
 }
