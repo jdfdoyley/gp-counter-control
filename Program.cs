@@ -38,5 +38,15 @@ public class CounterControlledLoops
         Console.WriteLine("Value of c before suffix increment: {0}", c);
         Console.WriteLine("Value of c with suffix increment (c--): {0}", c--);
         Console.WriteLine("Value of c after suffix increment: {0}\n", c);
+
+        // Counter-controlled while loop
+        Console.WriteLine("Counter-Controlled while loop demonstration");
+        int wcnt1 = 1;
+
+        while (wcnt1 <= 10)
+        {
+            Console.Write("{0} ", wcnt1);
+            wcnt1++;
+        }
     }
 }
