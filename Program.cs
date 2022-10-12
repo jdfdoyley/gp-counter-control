@@ -16,5 +16,16 @@ public class CounterControlledLoops
         Console.WriteLine(
             "\nJason D'Oyley - Week 2 GP Counter Controlled Loops\n"
         );
+
+        // Prefix increment & decrement operators
+        int c = 5;
+        Console.WriteLine("Value of c before prefix increment: {0}", c);
+        Console.WriteLine("Value of c with prefix increment (++c): {0}", ++c);
+        Console.WriteLine("Value of c after prefix increment: {0}\n", c);
+
+        c = 5;
+        Console.WriteLine("Value of c before prefix increment: {0}", c);
+        Console.WriteLine("Value of c with prefix increment (--c): {0}", --c);
+        Console.WriteLine("Value of c after prefix increment: {0}\n", c);
     }
 }
