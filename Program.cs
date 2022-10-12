@@ -40,13 +40,20 @@ public class CounterControlledLoops
         Console.WriteLine("Value of c after suffix increment: {0}\n", c);
 
         // Counter-controlled while loop
-        Console.WriteLine("Counter-Controlled while loop demonstration");
+        Console.WriteLine("Counter-Controlled while Loop Demonstration");
         int wcnt1 = 1;
 
         while (wcnt1 <= 10)
         {
             Console.Write("{0} ", wcnt1);
             wcnt1++;
+        }
+
+        // Demo counter-controlled for loop
+        Console.WriteLine("\n\nfor Loop Demonstrate");
+        for (int cnt = 1; cnt <= 10; cnt++)
+        {
+            Console.Write("{0} ", cnt);
         }
     }
 }
