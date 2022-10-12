@@ -27,5 +27,16 @@ public class CounterControlledLoops
         Console.WriteLine("Value of c before prefix increment: {0}", c);
         Console.WriteLine("Value of c with prefix increment (--c): {0}", --c);
         Console.WriteLine("Value of c after prefix increment: {0}\n", c);
+
+        // Suffix increment (postincrement) & decrement operators
+        c = 5;
+        Console.WriteLine("Value of c before suffix increment: {0}", c);
+        Console.WriteLine("Value of c with suffix increment (c++): {0}", c++);
+        Console.WriteLine("Value of c after suffix increment: {0}\n", c);
+
+        c = 5;
+        Console.WriteLine("Value of c before suffix increment: {0}", c);
+        Console.WriteLine("Value of c with suffix increment (c--): {0}", c--);
+        Console.WriteLine("Value of c after suffix increment: {0}\n", c);
     }
 }
