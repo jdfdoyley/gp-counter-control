@@ -12,6 +12,9 @@ public class CounterControlledLoops
 {
     static void Main(string[] args)
     {
-        // Code here ...
+        // Print a header line
+        Console.WriteLine(
+            "\nJason D'Oyley - Week 2 GP Counter Controlled Loops\n"
+        );
     }
 }
